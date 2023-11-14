@@ -25,6 +25,9 @@ B10: git push origin <nhánh phụ>
 B11: git pull
 >>> Pull code về máy
 
+____________________ Pull code Leader về fork Member ____________________
+
+
 ____________________ Commit ____________________
 $ git commit -m"message"
 Tạo cái mới: Create <file>.<đuôi> hoặc folder <tên folder>
