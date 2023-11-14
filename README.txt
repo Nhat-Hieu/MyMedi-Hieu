@@ -27,7 +27,7 @@ B11: git pull
 
 ____________________ Pull code Leader về fork Member ____________________
 B1: Vào repo của Member
-B2: Chọn dòng chữ màu xanh "... commit ahead" trong dòng chữ "This branch is ... commit ahead of minhkhanh-coder.main" phía dưới nút chuyển nhánh
+B2: Ở dòng chữ "This branch is ... commit ahead of minhkhanh-coder.main" phía bên phải có nút Sync fork > Update branch
 >>> Pull code từ repo Leader về repo Member
 
 ____________________ Note ____________________
