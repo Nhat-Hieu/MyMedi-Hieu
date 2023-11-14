@@ -11,19 +11,30 @@ B4: Tải code về
 ____________________ Member ____________________
 B1: fork (tạo repo mới)
 B2: git clone <link fork Github của Member>
-B3" git remote add leader https://github.com/minhkhanh-coder/MyMedi.git
-B4: git remote -v
-B5: git checkout -b <nhánh phụ>
-B6: git push origin <nhánh phụ>
-B7: git pull
+B3: cd <folder>/
+>>> Chuyển sang thư mục làm việc
+B4: git remote add leader https://github.com/minhkhanh-coder/MyMedi.git
+B5: git remote -v
+B6: git checkout -b <nhánh phụ>
+B7: git add .
+B8: git commit -m"message"
+B9: git push origin <nhánh phụ>
+>>> Push code lên Github
+B10: git pull
+>>> Pull code về máy
 
 ____________________ Commit ____________________
-git commit -m"message"
+$ git commit -m"message"
 Tạo cái mới: Create <file>.<đuôi> hoặc folder <tên folder>
 Chỉnh sửa: Update <file>.<đuôi>
 
 ____________________ Video Tutorial ____________________
 Link video: https://drive.google.com/file/d/1l0NgA9hdfluyVHUaP9EtMhRb6rC6Or4V/view?usp=drive_link
+
+____________________ Note ____________________
+Phần push code lên của Leader cũng giống như Member
+> Đều phải $ git add .
+> Với $ git commit -m"message"
 
 ____________________ End ____________________
 Have a nice day! Dear Khanh.
