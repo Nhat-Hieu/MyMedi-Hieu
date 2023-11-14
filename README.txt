@@ -16,11 +16,13 @@ B3: cd <folder>/
 B4: git remote add leader https://github.com/minhkhanh-coder/MyMedi.git
 B5: git remote -v
 B6: git checkout -b <nhánh phụ>
-B7: git add .
-B8: git commit -m"message"
-B9: git push origin <nhánh phụ>
+B7: code .
+>>> Mở folder - chỉnh sửa
+B8: git add .
+B9: git commit -m"message"
+B10: git push origin <nhánh phụ>
 >>> Push code lên Github
-B10: git pull
+B11: git pull
 >>> Pull code về máy
 
 ____________________ Commit ____________________
