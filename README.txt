@@ -23,7 +23,7 @@ B9: git add .
 B10: git commit -m"message"
 B11: git push origin <nhánh phụ>
 >>> Push code lên repo Member
-B12: git pull
+B12: git pull origin main
 >>> Pull code từ repo Member về máy
 
 ____________________ Leader - Push & Pull ____________________
