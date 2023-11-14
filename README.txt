@@ -23,7 +23,17 @@ B9: git commit -m"message"
 B10: git push origin <nhánh phụ>
 >>> Push code lên Github
 B11: git pull
->>> Pull code về máy
+>>> Pull code từ repo Member về máy
+
+____________________ Pull code Leader về fork Member ____________________
+B1: Vào repo của Member
+B2: Chọn dòng chữ màu xanh "... commit ahead" trong dòng chữ "This branch is ... commit ahead of minhkhanh-coder.main" phía dưới nút chuyển nhánh
+>>> Pull code từ repo Leader về repo Member
+
+____________________ Note ____________________
+Phần push code lên của Leader cũng giống như Member
+> Đều phải $ git add .
+> Với $ git commit -m"message"
 
 ____________________ Commit ____________________
 $ git commit -m"message"
@@ -32,11 +42,6 @@ Chỉnh sửa: Update <file>.<đuôi>
 
 ____________________ Video Tutorial ____________________
 Link video: https://drive.google.com/file/d/1l0NgA9hdfluyVHUaP9EtMhRb6rC6Or4V/view?usp=drive_link
-
-____________________ Note ____________________
-Phần push code lên của Leader cũng giống như Member
-> Đều phải $ git add .
-> Với $ git commit -m"message"
 
 ____________________ End ____________________
 Have a nice day! Dear Khanh.
