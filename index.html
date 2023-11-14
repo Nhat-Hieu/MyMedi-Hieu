@@ -1,11 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MyMedi – Medical Store WooCommerce WordPress Theme</title>
+    <link rel="shortcut icon" href="https://mymedi-be87.kxcdn.com/mymedi/wp-content/themes/mymedi/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="./public/css/style.css">
 </head>
+
 <body>
-    
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="logo-wrapper">
+                    <div class="logo">
+                        <a href="https://demo.theme-sky.com/mymedi/">
+                            <img src="https://mymedi-be87.kxcdn.com/mymedi/wp-content/themes/mymedi/images/logo.png"
+                                alt="MyMedi" title="MyMedi" class="normal-logo">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="search-table">
+                    <div class="search-content">
+                        <span class="search-icon"><i class="fas fa-search"></i></span>
+                        <input type="text" value="" name="s" id="s-217" placeholder="Search for products"
+                            autocomplete="off">
+                        <input type="hidden" name="post_type" value="product">
+                    </div>
+                </div>
+
+                <div class="header-right">
+                    <div class="language-currency">
+                        <div class="language dropdown">
+                            <a href="#" class="dropdown-toggle">English <i class="fas fa-caret-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Français</a></li>
+                                <li><a href="#">Deutsch</a></li>
+                                <li><a href="#">Tiếng Việt</a></li>
+                            </ul>
+                        </div>
+                        <div class="currency dropdown">
+                            <a href="#" class="dropdown-toggle">USD <i class="fas fa-caret-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">USD</a></li>
+                                <li><a href="#">EUR</a></li>
+                                <li><a href="#">VND</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="all-icon">
+                    <div class="account-icon">
+                        <a href="#">
+                            <img src="./public/img/account-icon.png" alt="account-icon">
+                        </a>
+                        <div class="login-form">
+                            <form action="login.php" method="post">
+                                <div class="form-group">
+                                    <label for="username">Username or Email Address: </label>
+                                    <input type="text" id="username" name="username" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">Password: </label>
+                                    <input type="password" id="password" name="password" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="checkbox" id="remember" name="remember" style="display:inline;">
+                                    <label for="remember" style="display:inline;">Remember me</label>
+                                </div>                                
+                                <div class="form-group">
+                                    <input type="submit" value="Login">
+                                </div>
+                            </form>
+                        </div>
+                    </div>                    
+
+                    <div class="wishlist-icon">
+                        <a href="">
+                            <img src="./public/img/wishlist-icon.png" alt="wishlist-icon">
+                        </a>
+                    </div>
+
+                    <div class="shoppingcart-icon">
+                        <a href="">
+                            <img src="./public/img/shoppingcart-icon.png" alt="shoppingcart-icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="header-bottom">
+            <div class="container">
+                <div class="menu-wrapper">
+                    <div class="ts-menu">
+                        <ul>
+                            <li class="dropdown2">  
+                                <a href="#" class="dropdown-toggle"> Products <i class="fas fa-caret-down"></i></a>
+                                <ul class="dropdown-menu2">
+                                    <li class="dropdown3">
+                                        <a href="#">Wound Care</a>
+                                        <ul>
+                                            <li> Bandages </li>
+                                            <li> Gypsum foundations </li>
+                                            <li> Patches and tapes </li>
+                                            <li> Stomatology </li>
+                                            <li> Surgical sutures </li>
+                                            <li> Uniforms </li>
+                                            <li> Wound healing </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="dropdown3">
+                                        <a href="#">Higiene</a>
+                                        <ul>
+                                            <li> Disposable products </li>
+                                            <li> Face masks </li>
+                                            <li> Gloves </li>
+                                            <li> Protective covers </li>
+                                            <li> Sterilization </li>
+                                            <li> Surgical foils </li>
+                                            <li> Uniforms </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="dropdown3">
+                                        <a href="#">Laboratory</a>
+                                        <ul>
+                                            <li> Devices </li>
+                                            <li> Diagnostic tests </li>
+                                            <li> Disinfectants </li>
+                                            <li> Dyes </li>
+                                            <li> Pipettes </li>
+                                            <li> Test-tubes </li>
+                                            <li> Tubes </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="dropdown3">
+                                        <a href="#">Tools</a>
+                                        <ul>
+                                            <li> Accessories Tools </li>
+                                            <li> Blood pressure </li>
+                                            <li> Capsules </li>
+                                            <li> Dental </li>
+                                            <li> Micrscope </li>
+                                            <li> Pressure </li>
+                                            <li> Sugar level </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="dropdown3">
+                                        <a href="#">Diagnosis</a>
+                                        <ul>
+                                            <li> Biopsy tools </li>
+                                            <li> Endoscopes </li>
+                                            <li> Monitoring </li>
+                                            <li> Otoscopes </li>
+                                            <li> Oxygen concetrators </li>
+                                            <li> Tables and assistants </li>
+                                            <li> Thermometer </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="dropdown3">
+                                        <a href="#">Equipment</a>
+                                        <ul>
+                                            <li> Blades </li>
+                                            <li> Education </li>
+                                            <li> Germicidal lamps</li>
+                                            <li> Heart Health </li>
+                                            <li> Infusion stands </li>
+                                            <li> Lighting </li>
+                                            <li> Machines </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown4">
+                                <a href="#" class="dropdown-toggle"> Home Medical Supplies <i
+                                        class="fas fa-caret-down"></i></a>
+                                <ul class="dropdown-menu4">
+                                    <li><a href="#">Diagnosis</a></li>
+                                    <li><a href="#">Accessories Tools</a></li>
+                                    <li><a href="#">Bandages</a></li>
+                                    <li><a href="#">Biospy tools</a></li>
+                                    <li><a href="#">Blades</a></li>
+                                    <li><a href="#">Blood pressure</a></li>
+                                    <li><a href="#">Capsules</a></li>
+                                    <li><a href="#">Dental</a></li>
+                                    <li><a href="#">Devices</a></li>
+                                    <li><a href="#">Diagnostic tests</a></li>
+                                    <li><a href="#">Disposable products</a></li>
+                                    <li><a href="#">Education</a></li>
+                                    <li><a href="#">Endoscopes</a></li>
+                                    <li><a href="#">Equipment</a></li>
+                                    <li><a href="#">Show all</a></li>
+                                </ul>
+                            </li>
+
+                            <li> Homepages </li>
+                            <li> Shop </li>
+                            <li> Pages </li>
+                            <li> Collection </li>
+                            <li> Blog </li>
+                            <li> Contact </li>
+                        </ul>
+                    </div>
+
+                    <div class="header-right ts-alignright">
+                        " Need help? "
+                        <strong> 0020 500 - MYDEDI - 000 </strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 </body>
+
 </html>
